@@ -1,0 +1,7 @@
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GeneralFramework\bin\Debug\GeneralFramework.exe
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GeneralFramework\bin\Debug\GeneralFramework.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GeneralFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GeneralFramework\obj\Debug\GeneralFramework.Properties.Resources.resources
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GeneralFramework\obj\Debug\GeneralFramework.csproj.GenerateResource.Cache
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GeneralFramework\obj\Debug\GeneralFramework.exe
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GeneralFramework\obj\Debug\GeneralFramework.pdb

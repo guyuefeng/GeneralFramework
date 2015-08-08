@@ -1,0 +1,16 @@
+* { font-family:Verdana, Arial, Helvetica, sans-serif; line-height:150%; }
+body { background-color:#F9F9F9; color:#666666; }
+a { color:#336699; }
+a:hover { color:#CC3300; }
+p, li { font-size:12px; }
+
+.center { text-align:center; }
+.right { text-align:right; }
+.red { color:#CC3300; }
+.blue { color:#3366CC; }
+.green { color:#669900; }
+.ver { font-size:22px; font-style:italic; }
+
+.page { margin:0px auto; width:660px; border:1px solid #DDDDDD; background-color:#FFFFFF; padding:20px; }
+.page h1 { border-bottom:1px dotted #CCCCCC; margin:0px; padding:5px 0px 5px 0px; margin-bottom:10px; }
+.page p { margin:0px; padding:5px 0px 5px 0px; }

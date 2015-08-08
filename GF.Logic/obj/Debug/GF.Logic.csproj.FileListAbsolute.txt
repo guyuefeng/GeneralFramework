@@ -1,0 +1,18 @@
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Logic.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Logic.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Core.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Data.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Data.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Core.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\obj\Debug\GF.Logic.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Logic\obj\Debug\GF.Logic.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Logic.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Logic.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Core.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Data.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Core.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\bin\Debug\GF.Data.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\obj\Debug\GF.Logic.csprojResolveAssemblyReference.cache
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\obj\Debug\GF.Logic.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Logic\obj\Debug\GF.Logic.pdb

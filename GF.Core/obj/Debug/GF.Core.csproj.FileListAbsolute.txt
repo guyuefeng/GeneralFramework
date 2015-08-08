@@ -1,0 +1,9 @@
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Core\bin\Debug\GF.Core.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Core\bin\Debug\GF.Core.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Core\obj\Debug\GF.Core.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Core\obj\Debug\GF.Core.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Core\bin\Debug\GF.Core.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Core\bin\Debug\GF.Core.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Core\obj\Debug\GF.Core.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Core\obj\Debug\GF.Core.pdb

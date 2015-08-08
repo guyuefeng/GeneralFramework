@@ -1,0 +1,22 @@
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Web.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Web.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Core.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Data.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Logic.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Data.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Logic.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Core.pdb
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\obj\Debug\GF.Web.dll
+C:\Documents and Settings\ligf3\My Documents\Dropbox\MyCode\GeneralFramework\GF.Web\obj\Debug\GF.Web.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Web.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Web.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Core.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Data.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Logic.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Core.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Data.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\bin\GF.Logic.pdb
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\obj\Debug\GF.Web.csprojResolveAssemblyReference.cache
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\obj\Debug\GF.Web.dll
+E:\Dropbox\MyCode\GeneralFramework\GF.Web\obj\Debug\GF.Web.pdb

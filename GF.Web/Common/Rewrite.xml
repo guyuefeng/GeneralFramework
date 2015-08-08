@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rewrite>
+  <rule
+    look="Article/(\d+)\.aspx"
+    to="Default.aspx?act=defa&amp;mode=view&amp;id=$1"
+  />
+  <rule
+    look="Article/(\S+)\.aspx"
+    to="Default.aspx?act=defa&amp;mode=view&amp;local=$1"
+  />
+  <rule
+    look="Category/(\d+)\.aspx"
+    to="Default.aspx?act=defa&amp;cid=$1"
+  />
+  <rule
+    look="Category/(\S+)\.aspx"
+    to="Default.aspx?act=defa&amp;clocal=$1"
+  />
+  <rule
+    look="Page/(\d+)\.aspx"
+    to="Default.aspx?act=page&amp;id=$1"
+  />
+  <rule
+    look="Page/(\S+)\.aspx"
+    to="Default.aspx?act=page&amp;local=$1"
+  />
+  <rule
+    look="Tag/(\S+)\.aspx"
+    to="Default.aspx?act=defa&amp;tag=$1"
+  />
+  <rule
+    look="Tags\.aspx"
+    to="Default.aspx?act=tags"
+  />
+  <rule
+    look="Fellows\.aspx"
+    to="Default.aspx?act=fellows"
+  />
+</rewrite>

@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF88533E-D906-4778-B974-0327D1E5277D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GF.Web</RootNamespace>
+    <AssemblyName>GF.Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminCP.aspx" />
+    <Content Include="Common\Admin\Common.js" />
+    <Content Include="Common\Admin\Icons\About.png" />
+    <Content Include="Common\Admin\Icons\Article.png" />
+    <Content Include="Common\Admin\Icons\ArticleAdd.png" />
+    <Content Include="Common\Admin\Icons\Basic.png" />
+    <Content Include="Common\Admin\Icons\Business.png" />
+    <Content Include="Common\Admin\Icons\Cache.png" />
+    <Content Include="Common\Admin\Icons\Comment.png" />
+    <Content Include="Common\Admin\Icons\DbBackup.png" />
+    <Content Include="Common\Admin\Icons\Fellow.png" />
+    <Content Include="Common\Admin\Icons\FellowAdd.png" />
+    <Content Include="Common\Admin\Icons\File.png" />
+    <Content Include="Common\Admin\Icons\Master.png" />
+    <Content Include="Common\Admin\Icons\Page.png" />
+    <Content Include="Common\Admin\Icons\Sql.png" />
+    <Content Include="Common\Admin\Icons\Tag.png" />
+    <Content Include="Common\Admin\Icons\Upgrade.png" />
+    <Content Include="Common\Admin\Images\btn_bg.png" />
+    <Content Include="Common\Admin\Images\input_bg.png" />
+    <Content Include="Common\Admin\Images\menu_icon.png" />
+    <Content Include="Common\Admin\Images\pg.png" />
+    <Content Include="Common\Admin\Images\pre_bg.png" />
+    <Content Include="Common\Admin\Images\pre_inr.png" />
+    <Content Include="Common\Admin\Images\side_caption.png" />
+    <Content Include="Common\Admin\Images\side_caption_hover.png" />
+    <Content Include="Common\Admin\Images\side_cap_icon.png" />
+    <Content Include="Common\Admin\Style.css" />
+    <Content Include="Common\Data\db.mdb">
+    </Content>
+    <Content Include="Common\Images\Emot\angry.gif" />
+    <Content Include="Common\Images\Emot\awkward.gif" />
+    <Content Include="Common\Images\Emot\bye.gif" />
+    <Content Include="Common\Images\Emot\crazy.gif" />
+    <Content Include="Common\Images\Emot\cry.gif" />
+    <Content Include="Common\Images\Emot\curse.gif" />
+    <Content Include="Common\Images\Emot\cute.gif" />
+    <Content Include="Common\Images\Emot\despise.gif" />
+    <Content Include="Common\Images\Emot\doubt.gif" />
+    <Content Include="Common\Images\Emot\envy.gif" />
+    <Content Include="Common\Images\Emot\fastcry.gif" />
+    <Content Include="Common\Images\Emot\knock.gif" />
+    <Content Include="Common\Images\Emot\laugh.gif" />
+    <Content Include="Common\Images\Emot\mad.gif" />
+    <Content Include="Common\Images\Emot\ohmy.gif" />
+    <Content Include="Common\Images\Emot\panic.gif" />
+    <Content Include="Common\Images\Emot\proud.gif" />
+    <Content Include="Common\Images\Emot\quiet.gif" />
+    <Content Include="Common\Images\Emot\sad.gif" />
+    <Content Include="Common\Images\Emot\shutup.gif" />
+    <Content Include="Common\Images\Emot\shy.gif" />
+    <Content Include="Common\Images\Emot\sleep.gif" />
+    <Content Include="Common\Images\Emot\smile.gif" />
+    <Content Include="Common\Images\Emot\struggle.gif" />
+    <Content Include="Common\Images\Emot\titter.gif" />
+    <Content Include="Common\Images\Emot\tongue.gif" />
+    <Content Include="Common\Images\Emot\wail.gif" />
+    <Content Include="Common\Images\Emot\wronged.gif" />
+    <Content Include="Common\Images\FileType\7z.png" />
+    <Content Include="Common\Images\FileType\ace.png" />
+    <Content Include="Common\Images\FileType\ai.png" />
+    <Content Include="Common\Images\FileType\aif.png" />
+    <Content Include="Common\Images\FileType\aiff.png" />
+    <Content Include="Common\Images\FileType\arj.png" />
+    <Content Include="Common\Images\FileType\asf.png" />
+    <Content Include="Common\Images\FileType\asp.png" />
+    <Content Include="Common\Images\FileType\aspx.png" />
+    <Content Include="Common\Images\FileType\au.png" />
+    <Content Include="Common\Images\FileType\avi.png" />
+    <Content Include="Common\Images\FileType\bin.png" />
+    <Content Include="Common\Images\FileType\bmp.png" />
+    <Content Include="Common\Images\FileType\bz2.png" />
+    <Content Include="Common\Images\FileType\c.png" />
+    <Content Include="Common\Images\FileType\cgi.png" />
+    <Content Include="Common\Images\FileType\chm.png" />
+    <Content Include="Common\Images\FileType\cmd.png" />
+    <Content Include="Common\Images\FileType\cs.png" />
+    <Content Include="Common\Images\FileType\css.png" />
+    <Content Include="Common\Images\FileType\dat.png" />
+    <Content Include="Common\Images\FileType\dll.png" />
+    <Content Include="Common\Images\FileType\doc.png" />
+    <Content Include="Common\Images\FileType\dot.png" />
+    <Content Include="Common\Images\FileType\dtd.png" />
+    <Content Include="Common\Images\FileType\fla.png" />
+    <Content Include="Common\Images\FileType\flv.png" />
+    <Content Include="Common\Images\FileType\folder.png" />
+    <Content Include="Common\Images\FileType\fon.png" />
+    <Content Include="Common\Images\FileType\fot.png" />
+    <Content Include="Common\Images\FileType\gho.png" />
+    <Content Include="Common\Images\FileType\gif.png" />
+    <Content Include="Common\Images\FileType\gz.png" />
+    <Content Include="Common\Images\FileType\h.png" />
+    <Content Include="Common\Images\FileType\hlp.png" />
+    <Content Include="Common\Images\FileType\htm.png" />
+    <Content Include="Common\Images\FileType\html.png" />
+    <Content Include="Common\Images\FileType\htt.png" />
+    <Content Include="Common\Images\FileType\icl.png" />
+    <Content Include="Common\Images\FileType\inf.png" />
+    <Content Include="Common\Images\FileType\ini.png" />
+    <Content Include="Common\Images\FileType\iso.png" />
+    <Content Include="Common\Images\FileType\jar.png" />
+    <Content Include="Common\Images\FileType\java.png" />
+    <Content Include="Common\Images\FileType\jpg.png" />
+    <Content Include="Common\Images\FileType\js.png" />
+    <Content Include="Common\Images\FileType\jsp.png" />
+    <Content Include="Common\Images\FileType\lha.png" />
+    <Content Include="Common\Images\FileType\lib.png" />
+    <Content Include="Common\Images\FileType\log.png" />
+    <Content Include="Common\Images\FileType\lst.png" />
+    <Content Include="Common\Images\FileType\lzh.png" />
+    <Content Include="Common\Images\FileType\m3u.png" />
+    <Content Include="Common\Images\FileType\ma.png" />
+    <Content Include="Common\Images\FileType\mdb.png" />
+    <Content Include="Common\Images\FileType\midi.png" />
+    <Content Include="Common\Images\FileType\mkv.png" />
+    <Content Include="Common\Images\FileType\mov.png" />
+    <Content Include="Common\Images\FileType\mp3.png" />
+    <Content Include="Common\Images\FileType\mp4.png" />
+    <Content Include="Common\Images\FileType\mpg.png" />
+    <Content Include="Common\Images\FileType\none.png" />
+    <Content Include="Common\Images\FileType\ogg.png" />
+    <Content Include="Common\Images\FileType\ogm.png" />
+    <Content Include="Common\Images\FileType\pdf.png" />
+    <Content Include="Common\Images\FileType\php.png" />
+    <Content Include="Common\Images\FileType\png.png" />
+    <Content Include="Common\Images\FileType\pps.png" />
+    <Content Include="Common\Images\FileType\ppt.png" />
+    <Content Include="Common\Images\FileType\psd.png" />
+    <Content Include="Common\Images\FileType\qt.png" />
+    <Content Include="Common\Images\FileType\rar.png" />
+    <Content Include="Common\Images\FileType\raw.png" />
+    <Content Include="Common\Images\FileType\rdp.png" />
+    <Content Include="Common\Images\FileType\rm.png" />
+    <Content Include="Common\Images\FileType\rmvb.png" />
+    <Content Include="Common\Images\FileType\sav.png" />
+    <Content Include="Common\Images\FileType\spl.png" />
+    <Content Include="Common\Images\FileType\sql.png" />
+    <Content Include="Common\Images\FileType\swf.png" />
+    <Content Include="Common\Images\FileType\tar.png" />
+    <Content Include="Common\Images\FileType\theme.png" />
+    <Content Include="Common\Images\FileType\tifi.png" />
+    <Content Include="Common\Images\FileType\tmp.png" />
+    <Content Include="Common\Images\FileType\torrent.png" />
+    <Content Include="Common\Images\FileType\txt.png" />
+    <Content Include="Common\Images\FileType\url.png" />
+    <Content Include="Common\Images\FileType\vcf.png" />
+    <Content Include="Common\Images\FileType\vob.png" />
+    <Content Include="Common\Images\FileType\wma.png" />
+    <Content Include="Common\Images\FileType\wmv.png" />
+    <Content Include="Common\Images\FileType\wpl.png" />
+    <Content Include="Common\Images\FileType\wvx.png" />
+    <Content Include="Common\Images\FileType\xls.png" />
+    <Content Include="Common\Images\FileType\xml.png" />
+    <Content Include="Common\Images\FileType\xsl.png" />
+    <Content Include="Common\Images\FileType\zip.png" />
+    <Content Include="Common\Images\Icons\add.gif" />
+    <Content Include="Common\Images\Icons\ask.gif" />
+    <Content Include="Common\Images\Icons\attach.gif" />
+    <Content Include="Common\Images\Icons\calendar.gif" />
+    <Content Include="Common\Images\Icons\comment.gif" />
+    <Content Include="Common\Images\Icons\dark.gif" />
+    <Content Include="Common\Images\Icons\data.gif" />
+    <Content Include="Common\Images\Icons\delete.gif" />
+    <Content Include="Common\Images\Icons\edit.gif" />
+    <Content Include="Common\Images\Icons\home.gif" />
+    <Content Include="Common\Images\Icons\lab.gif" />
+    <Content Include="Common\Images\Icons\ok.gif" />
+    <Content Include="Common\Images\Icons\save.gif" />
+    <Content Include="Common\Images\Icons\system.gif" />
+    <Content Include="Common\Images\Icons\tool.gif" />
+    <Content Include="Common\Images\Icons\user.gif" />
+    <Content Include="Common\Images\Icons\verify.gif" />
+    <Content Include="Common\Images\Icons\warning.gif" />
+    <Content Include="Common\Images\Logo.png" />
+    <Content Include="Common\Images\Nopic.png" />
+    <Content Include="Common\Images\Watermark.png" />
+    <Content Include="Common\Language.xml" />
+    <Content Include="Common\Rewrite.xml" />
+    <Content Include="Common\Theme\Amarketer-blue\app.js" />
+    <Content Include="Common\Theme\Amarketer-blue\Article.List.xslt" />
+    <Content Include="Common\Theme\Amarketer-blue\Article.View.xslt" />
+    <Content Include="Common\Theme\Amarketer-blue\Download.xslt" />
+    <Content Include="Common\Theme\Amarketer-blue\Expand.View.xslt" />
+    <Content Include="Common\Theme\Amarketer-blue\Fellow.List.xslt" />
+    <Content Include="Common\Theme\Amarketer-blue\Page.View.xslt" />
+    <Content Include="Common\Theme\Amarketer-blue\Preview.png" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\body-bg.gif" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\content-bg.gif" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\icons.gif" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\Layout.css" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\lead-line.gif" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\menu.png" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\pages.png" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\rico.gif" />
+    <Content Include="Common\Theme\Amarketer-blue\Style\side-title.gif" />
+    <Content Include="Common\Theme\Amarketer-blue\Tag.List.xslt" />
+    <Content Include="Common\Theme\Amarketer-blue\_Include.xslt" />
+    <Content Include="Common\Theme\Error.htm" />
+    <Content Include="Default.aspx" />
+    <Content Include="Common\Editor\CKEditor\adapters\jquery.js" />
+    <Content Include="Common\Editor\CKEditor\ckeditor.js" />
+    <Content Include="Common\Editor\CKEditor\config.js" />
+    <Content Include="Common\Editor\CKEditor\contents.css" />
+    <Content Include="Common\Editor\CKEditor\images\spacer.gif" />
+    <Content Include="Common\Editor\CKEditor\lang\en.js" />
+    <Content Include="Common\Editor\CKEditor\lang\zh-cn.js" />
+    <Content Include="Common\Editor\CKEditor\lang\zh.js" />
+    <Content Include="Common\Editor\CKEditor\lang\_languages.js" />
+    <Content Include="Common\Editor\CKEditor\lang\_translationstatus.txt" />
+    <Content Include="Common\Editor\CKEditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\colordialog\dialogs\colordialog.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\find\dialogs\find.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\flash\dialogs\flash.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\flash\images\placeholder.png" />
+    <Content Include="Common\Editor\CKEditor\plugins\image\dialogs\image.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\link\dialogs\link.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\link\images\anchor.gif" />
+    <Content Include="Common\Editor\CKEditor\plugins\liststyle\dialogs\liststyle.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\mp3\dialogs\mp3.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\mp3\images\mp3.gif" />
+    <Content Include="Common\Editor\CKEditor\plugins\mp3\plugin.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\pagebreak\images\pagebreak.gif" />
+    <Content Include="Common\Editor\CKEditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\pastetext\dialogs\pastetext.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\styles\styles\default.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\syntax\dialogs\syntax.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\syntax\images\code.gif" />
+    <Content Include="Common\Editor\CKEditor\plugins\syntax\plugin.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="Common\Editor\CKEditor\plugins\table\dialogs\table.js" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\dialog.css" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\editor.css" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\icons.png" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\images\dialog_sides.gif" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\images\dialog_sides.png" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\images\dialog_sides_rtl.png" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\images\mini.gif" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\images\noimage.png" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\images\sprites.png" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\images\sprites_ie6.png" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\images\toolbar_start.gif" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\skin.js" />
+    <Content Include="Common\Editor\CKEditor\skins\kama\templates.css" />
+    <Content Include="Common\Editor\CKEditor\themes\default\theme.js" />
+    <Content Include="Common\Editor\player.swf" />
+    <Content Include="Common\Editor\syntaxhighlighter\SyntaxHighlighter.css" />
+    <Content Include="Common\Editor\syntaxhighlighter\SyntaxHighlighter.js" />
+    <Content Include="Common\Script\jQuery.Cookie.js" />
+    <Content Include="Common\Script\jQuery.js" />
+    <Content Include="Common\Style\Readme.css" />
+    <Content Include="Common\Style\System.css" />
+    <Content Include="Service.aspx" />
+    <Content Include="Upgrade.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminCP.aspx.cs">
+      <DependentUpon>AdminCP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCP.aspx.designer.cs">
+      <DependentUpon>AdminCP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service.aspx.cs">
+      <DependentUpon>Service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Service.aspx.designer.cs">
+      <DependentUpon>Service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upgrade.aspx.cs">
+      <DependentUpon>Upgrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upgrade.aspx.designer.cs">
+      <DependentUpon>Upgrade.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GF.Core\GF.Core.csproj">
+      <Project>{52B219FB-2D2E-4492-AF9C-A252656C6CC2}</Project>
+      <Name>GF.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GF.Data\GF.Data.csproj">
+      <Project>{B3A2D7F0-413D-4421-A903-31DE99D7F0C2}</Project>
+      <Name>GF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GF.Logic\GF.Logic.csproj">
+      <Project>{52FE7D8D-D8EC-4524-B6F5-DAF20A8AEE8B}</Project>
+      <Name>GF.Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common\Images\Emot\Thumbs.db" />
+    <None Include="Common\Images\FileType\Thumbs.db" />
+    <None Include="Common\Images\Icons\Thumbs.db" />
+    <None Include="Common\Images\Thumbs.db" />
+    <None Include="Common\Theme\Amarketer-blue\Style\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Common\Expand\_Admin\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3596</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

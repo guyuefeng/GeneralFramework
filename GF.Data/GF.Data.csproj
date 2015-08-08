@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3A2D7F0-413D-4421-A903-31DE99D7F0C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GF.Data</RootNamespace>
+    <AssemblyName>GF.Data</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttachmentData.cs" />
+    <Compile Include="ColumnData.cs" />
+    <Compile Include="CommentData.cs" />
+    <Compile Include="DataBase.cs" />
+    <Compile Include="Entity\AttachmentItem.cs" />
+    <Compile Include="Entity\ColumnItem.cs" />
+    <Compile Include="Entity\CommentItem.cs" />
+    <Compile Include="Entity\DataDictionary.cs" />
+    <Compile Include="Entity\DataList.cs" />
+    <Compile Include="Entity\FellowItem.cs" />
+    <Compile Include="Entity\MyTagItem.cs" />
+    <Compile Include="Entity\PostItem.cs" />
+    <Compile Include="Entity\SettingBasicItem.cs" />
+    <Compile Include="Entity\SettingItem.cs" />
+    <Compile Include="Entity\SettingParameterItem.cs" />
+    <Compile Include="Entity\TagItem.cs" />
+    <Compile Include="Entity\TagList.cs" />
+    <Compile Include="Entity\TrackbackLogItem.cs" />
+    <Compile Include="Entity\UserItem.cs" />
+    <Compile Include="FellowData.cs" />
+    <Compile Include="MyTagData.cs" />
+    <Compile Include="PostData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingData.cs" />
+    <Compile Include="TagData.cs" />
+    <Compile Include="TrackbackLogData.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="_DbHelper.cs" />
+    <Compile Include="_DbParameter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

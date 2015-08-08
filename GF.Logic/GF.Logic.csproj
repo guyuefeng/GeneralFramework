@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52FE7D8D-D8EC-4524-B6F5-DAF20A8AEE8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GF.Logic</RootNamespace>
+    <AssemblyName>GF.Logic</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdminAttach.cs" />
+    <Compile Include="Admin\AdminCache.cs" />
+    <Compile Include="Admin\AdminColumn.cs" />
+    <Compile Include="Admin\AdminComment.cs" />
+    <Compile Include="Admin\AdminDB.cs" />
+    <Compile Include="Admin\AdminExpand.cs" />
+    <Compile Include="Admin\AdminFellow.cs" />
+    <Compile Include="Admin\AdminMyTag.cs" />
+    <Compile Include="Admin\AdminPost.cs" />
+    <Compile Include="Admin\AdminSetting.cs" />
+    <Compile Include="Admin\AdminTag.cs" />
+    <Compile Include="Admin\AdminTheme.cs" />
+    <Compile Include="Admin\AdminTrackback.cs" />
+    <Compile Include="Admin\AdminUpgrade.cs" />
+    <Compile Include="Admin\AdminUser.cs" />
+    <Compile Include="Admin\AdminWelcome.cs" />
+    <Compile Include="Admin\IAdminExpand.cs" />
+    <Compile Include="Admin\_AdminBase.cs" />
+    <Compile Include="Admin\_AdminCookie.cs" />
+    <Compile Include="Admin\_AdminUpload.cs" />
+    <Compile Include="CommentUI.cs" />
+    <Compile Include="IMyError.cs" />
+    <Compile Include="MyError.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\IServiceExpand.cs" />
+    <Compile Include="Service\ServiceComment.cs" />
+    <Compile Include="Service\ServicePost.cs" />
+    <Compile Include="Service\ServiceRss.cs" />
+    <Compile Include="Service\ServiceTag.cs" />
+    <Compile Include="Service\ServiceTime.cs" />
+    <Compile Include="Service\ServiceTrackback.cs" />
+    <Compile Include="Service\ServiceVerifyCode.cs" />
+    <Compile Include="Service\_ServiceBase.cs" />
+    <Compile Include="Service\_ServiceBaseXml.cs" />
+    <Compile Include="Template\FileTemplate.cs" />
+    <Compile Include="Template\ITemplateFun.cs" />
+    <Compile Include="Template\XsltTemplate.cs" />
+    <Compile Include="Template\_ALFun.cs" />
+    <Compile Include="UI\AdminUI.cs" />
+    <Compile Include="UI\HtmlUI.cs" />
+    <Compile Include="Upgrade\UpgradeCheck.cs" />
+    <Compile Include="Upgrade\UpgradeDown.cs" />
+    <Compile Include="Upgrade\UpgradeFileEntity.cs" />
+    <Compile Include="Web\IWebExpand.cs" />
+    <Compile Include="Web\IWebExpandXml.cs" />
+    <Compile Include="Web\WebArticle.cs" />
+    <Compile Include="Web\WebFellows.cs" />
+    <Compile Include="Web\WebPage.cs" />
+    <Compile Include="Web\WebTags.cs" />
+    <Compile Include="Web\_WebBase.cs" />
+    <Compile Include="Web\_WebBaseXml.cs" />
+    <Compile Include="Web\_WebCookie.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GF.Core\GF.Core.csproj">
+      <Project>{52B219FB-2D2E-4492-AF9C-A252656C6CC2}</Project>
+      <Name>GF.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GF.Data\GF.Data.csproj">
+      <Project>{B3A2D7F0-413D-4421-A903-31DE99D7F0C2}</Project>
+      <Name>GF.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
